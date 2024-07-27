@@ -18,14 +18,18 @@ body {
     gap: 4rem;
 }
 
+/* lights */
+
 .lights {
     height: 32vh;
     width: 32vh;
-    border: 1px solid #000;
+    border: 2px solid #000;
+    border-radius: 1rem;
 }
 
 #red {
     background-color: crimson;
+    box-shadow: 0 0 4rem crimson;
 }
 
 #green-minus {
@@ -35,8 +39,10 @@ body {
 
 #green-plus {
     background-color: #4c4;
-    border: 2px solid #4c4;
+    box-shadow: 0 0 4rem #4c4;
 }
+
+/* buttons */
 
 .btn {
     height: 6rem;
